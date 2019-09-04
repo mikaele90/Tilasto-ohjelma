@@ -7,8 +7,6 @@
 *.o
 # Packages #
 ############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
 *.7z
 *.zip
 # Logs and databases #
@@ -16,9 +14,13 @@
 *.log
 *.sql
 *.sqlite
-# IDE Folders/Files #
+# IDE folders/files #
+#####################
 idea/
 .idea/
 nb-configuration.xml
 nbactions.xml
 Tilastoohjelma.iml
+# Temporary files #
+###################
+*~
