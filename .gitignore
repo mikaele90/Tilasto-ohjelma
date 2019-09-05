@@ -17,6 +17,7 @@
 #####################
 idea/
 .idea/
+target/
 nb-configuration.xml
 nbactions.xml
 Tilastoohjelma.iml
