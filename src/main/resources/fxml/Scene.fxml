@@ -10,10 +10,10 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="187.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ryhma10.tilastoohjelma.FXMLController">
+<AnchorPane id="AnchorPane" prefHeight="215.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ryhma10.tilastoohjelma.FXMLController">
     <children>
-        <Button fx:id="button" layoutX="14.0" layoutY="150.0" maxHeight="28.0" maxWidth="140.0" onAction="#handleButtonAction" prefHeight="24.0" prefWidth="125.0" text="Create new profile..." />
-      <MenuBar layoutY="1.0" prefHeight="26.0" prefWidth="500.0">
+        <Button fx:id="button" layoutX="15.0" layoutY="167.0" maxHeight="28.0" maxWidth="360.0" onAction="#handleButtonAction" prefHeight="24.0" prefWidth="160.0" text="Create new profile..." AnchorPane.topAnchor="167.0" />
+      <MenuBar layoutY="2.0" prefHeight="31.0" prefWidth="500.0">
         <menus>
           <Menu mnemonicParsing="false" text="File">
             <items>
@@ -28,14 +28,14 @@
           </Menu>
         </menus>
       </MenuBar>
-      <Label layoutX="14.0" layoutY="32.0" text="Use existing profile" />
-        <Label fx:id="label" layoutX="14.0" layoutY="59.0" minHeight="16" minWidth="69" text="Profile name:" />
-      <Label fx:id="label1" layoutX="14.0" layoutY="93.0" minHeight="16" minWidth="69" text="Password:" />
-      <Separator layoutX="14.0" layoutY="50.0" maxHeight="2.0" prefHeight="2.0" prefWidth="474.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" />
-      <TextField layoutX="91.0" layoutY="55.0" prefHeight="26.0" prefWidth="192.0" />
-      <TextField layoutX="91.0" layoutY="89.0" prefHeight="26.0" prefWidth="192.0" />
-      <Separator layoutX="14.0" layoutY="122.0" maxHeight="2.0" prefHeight="2.0" prefWidth="474.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" />
-      <Label layoutX="14.0" layoutY="130.0" text="Don't have a profile yet? Create one by clicking the button:" />
+      <Label layoutX="14.0" layoutY="42.0" text="Use existing profile" />
+        <Label fx:id="label" layoutX="14.0" layoutY="76.0" minHeight="16" minWidth="69" text="Profile name:" />
+      <Label fx:id="label1" layoutX="14.0" layoutY="110.0" minHeight="16" minWidth="69" text="Password:" />
+      <Separator layoutX="7.0" layoutY="62.0" maxHeight="2.0" prefHeight="2.0" prefWidth="474.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="64.0" />
+      <TextField layoutX="105.0" layoutY="71.0" prefHeight="26.0" prefWidth="220.0" AnchorPane.leftAnchor="105.0" />
+      <TextField layoutX="91.0" layoutY="105.0" prefHeight="26.0" prefWidth="220.0" AnchorPane.leftAnchor="105.0" />
+      <Separator layoutX="14.0" layoutY="138.0" maxHeight="2.0" prefHeight="2.0" prefWidth="474.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="142.0" />
+      <Label layoutX="14.0" layoutY="141.0" text="Don't have a profile yet? Create one by clicking the button:" AnchorPane.topAnchor="146.0" />
     </children>
    <padding>
       <Insets bottom="14.0" />
