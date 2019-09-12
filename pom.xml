@@ -16,6 +16,16 @@
         <maven.compiler.source>1.8</maven.compiler.source>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>maven-central-repo</id>
+            <url>http://repo1.maven.org/maven2</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
     <organization>
         <!-- Used as the 'Vendor' for JNLP generation -->
         <name>Ryhmä 10</name>
@@ -42,6 +52,18 @@
             <artifactId>hibernate-agroal</artifactId>
             <version>5.3.11.Final</version>
             <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>org.testfx</groupId>
+            <artifactId>testfx-core</artifactId>
+            <version>4.0.15-alpha</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.testfx</groupId>
+            <artifactId>testfx-junit</artifactId>
+            <version>4.0.15-alpha</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
