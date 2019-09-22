@@ -6,22 +6,22 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
 import com.ryhma10.tilastoohjelma.MainApp;
 
-public class LoginController implements Initializable {
+public class LoginController {
 
     private MainApp mainApp;
 
-    public void setMainApp(MainApp mainApp) {
-        this.mainApp = mainApp;
+    public LoginController() {
+        //Constructor
     }
 
-    @Override
-    public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+    public void setMainApp(MainApp mainApp) {
+        this.mainApp = mainApp;
     }
 
     @FXML
@@ -35,7 +35,8 @@ public class LoginController implements Initializable {
     }
 
     @FXML
-    public void handleCreateNewProfile(ActionEvent actionEvent) {
+    public void handleCreateNewProfile(ActionEvent actionEvent) throws IOException {
+        mainApp.showCreateNewUserWindow();
     }
 
     @FXML
